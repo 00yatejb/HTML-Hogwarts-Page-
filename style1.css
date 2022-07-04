@@ -1,0 +1,106 @@
+body {
+    background-color: black;   
+   }
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.image {
+	background-image:url(./banner.jpeg);
+	height: 80vh;
+}
+
+.header {
+	color: white;
+	font-size: 500%;
+	text-align:center;
+    padding-bottom: 25px;
+    position:absolute;
+    width: 100%;
+    
+}
+
+/*navigation bar*/
+
+.nav li {
+    display:block
+
+}
+
+ul {
+    position:relative;
+    top: 0;
+    width: 100%;
+    color: white;
+    align-content: center;
+  }
+
+li  {
+    float:left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+  }
+
+/*text*/
+
+
+h1 {
+    color: white;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: white;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h3 {
+    color: white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p2 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+/*columns*/
+
+.column {
+    columns: 2;
+    float: left;
+    width: 100%;
+
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/*images*/
+
+img {
+    width: 95%;
+    height: 90%;
+    object-fit: contain;
+    }
+  
